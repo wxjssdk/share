@@ -16,6 +16,9 @@ $signPackage = $jssdk->GetSignPackage();
 
     <script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
     <script type="text/javascript">
+		var shareTilte = "分享出去的标题";
+        var shareIcon = "分享出去的图片";
+        var shareLink = "分享出去的图片链接";
         wx.config({
             debug: false,
             appId: '<?php echo $signPackage["appId"];?>',
